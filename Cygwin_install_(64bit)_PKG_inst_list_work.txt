@@ -1,0 +1,27 @@
+bc
+bsdtar
+diffutils
+dos2unix
+gcc-core
+gcc-g++
+genisoimage (isoinfoコマンド)
+libcdio (cd-infoコマンド)
+lv
+make
+makepasswd
+nc
+openssh
+openssl
+p7zip (7zコマンド)
+patch
+perl
+perl_manpages
+procps-ng (watchコマンド)
+rsync
+unzip
+util-linux (getopt,wipefsコマンド)
+vim
+wget
+wodim (readomコマンド)
+xmlstarlet
+zip
