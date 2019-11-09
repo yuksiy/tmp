@@ -5,7 +5,10 @@ dos2unix
 gcc-core
 gcc-g++
 genisoimage (isoinfoコマンド)
+jq
 libcdio (cd-infoコマンド)
+libxml2 (xmllintコマンド)
+libxslt (xsltprocコマンド)
 lv
 make
 makepasswd
