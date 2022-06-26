@@ -1,4 +1,6 @@
 bc
+bind (named-checkzoneコマンド等が必要な場合)
+bind-utils (digコマンド等が必要な場合)
 bsdtar
 diffutils
 dos2unix
