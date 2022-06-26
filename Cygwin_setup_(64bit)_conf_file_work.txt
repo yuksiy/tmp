@@ -1,4 +1,22 @@
 --------------------------------------------------------------------------------
+ls -ald /etc/group*
+mkgroup -c > /etc/group
+ls -ald /etc/group*
+
+ls -ald /etc/passwd*
+mkpasswd -c > /etc/passwd
+ls -ald /etc/passwd*
+
+ls -ald /etc/nsswitch.conf*
+cp -pi /etc/nsswitch.conf /etc/nsswitch.conf.orig
+ls -ald /etc/nsswitch.conf*
+cat <<-EOF >> /etc/nsswitch.conf
+passwd:   files # db
+group:    files # db
+EOF
+ls -ald /etc/nsswitch.conf*
+cat     /etc/nsswitch.conf
+--------------------------------------------------------------------------------
 .inputrc
 --------------------------------------------------------------------------------
 set bell-style none
